@@ -62,17 +62,37 @@
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
-    transition: all 1.5s;
 }
 
 .ex-6-img:hover {
   filter: grayscale(100%);
 }
 
+.ex-7-img, .ex-8-img {
+  transition: all 2s;
+}
+
+.ex-7-img:hover {
+  filter: sepia(100%) blur(10px);
+}
+
+.ex-8-img:hover {
+  border-radius: 10px;
+  filter: drop-shadow(10px 10px 20px black) contrast(50%);
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: all 2s;
 }
+
+.ex-9-img:hover {
+  border-radius: 20px;
+  filter: brightness(70%) saturate(50%);
+  width: 500px;
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
